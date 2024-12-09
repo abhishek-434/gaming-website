@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us Section</title>
+    <link rel="stylesheet" href="index.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1b2838;
+            color: #dcdcdc;
+        }
+
+        .about-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about-text {
+            max-width: 50%;
+        }
+
+        .about-text h1 {
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .about-text p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .about-stats {
+            display: flex;
+            gap: 30px;
+            margin: 20px 0;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat span {
+            display: block;
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .stat small {
+            color: #00d04c;
+        }
+
+        .install-button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .install-button:hover {
+            background-color: #0056b3;
+        }
+
+        .about-icons {
+            margin-top: 20px;
+        }
+
+        .about-icons i {
+            font-size: 2rem;
+            margin-right: 10px;
+            color: #dcdcdc;
+        }
+
+        .about-icons i:hover {
+            color: white;
+        }
+
+        .about-image {
+            max-width: 40%;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="about-section">
+        <div class="about-text">
+            <h1>About Our Platform</h1>
+            <p>Our platform is the ultimate destination for discovering, playing, and creating amazing experiences. Join
+                millions of users worldwide and explore endless possibilities.</p>
+            <div class="about-stats">
+                <div class="stat">
+                    <span>32,662,424</span>
+                    <small>Online</small>
+                </div>
+                <div class="stat">
+                    <span>8,849,735</span>
+                    <small>Playing Now</small>
+                </div>
+            </div>
+            <a href="#" class="install-button">Install Now <i class="bi bi-windows"></i></a>
+            <div class="about-icons">
+                <span>Also available on:</span>
+                <i class="bi bi-apple"></i>
+            </div>
+        </div>
+
+        <div class="about-image">
+            <img src="your-image-url.jpg" alt="Platform Showcase">
+        </div>
+    </section>
+</body>
+
+</html>
